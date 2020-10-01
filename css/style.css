@@ -1,13 +1,42 @@
-
+/* general style */
 body{
   font-family: 'Lato', sans-serif;
 }
+
+/* typography */
 h1,
 h2,
 h3,
 h4{
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-top: 0px;
 }
+
+p{
+  color: #5c6a88;
+}
+
+.p2{
+  font-size: 12px;
+}
+
+/* layout */
+
+/* background section */
+section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.grey{
+  background-color: #f3f5f9;
+}
+.blue{
+  background-color: #0041be;
+}
+
+/* utility */
+
 /* button */
 .navbar .nav li .btn{
   padding: 5px 15px;
@@ -16,31 +45,39 @@ h4{
   margin-top: 10px;
   color: #006aff;
 }
+
+/* navbar */
 .nav{
   margin-top: 5px;
 }
+
 .navbar{
   background-color: #ffffff;
   border-radius: 0;
   border: none;
   margin-bottom: 0px;
 }
+
 .navbar-header .navbar-brand{
   width: 170px;
   height: 30px;
 }
+
 .left{
   padding-left: 80px;
 }
+
 .navbar .nav li a{
   color: #283c66;
   font-weight: 600;
 }
+
 .fa-angle-down{
   position: relative;
   top: 2px;
   padding: 0px 3px;
 }
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
     /* Mostra hamburger */
     .navbar-toggle {
@@ -52,4 +89,15 @@ h4{
     .navbar-collapse {
         display: none;
     }
+}
+
+/* header top */
+/* jumbotron */
+.jumbotron{
+  background-image: url("./img/bg-banner-home.jpg");
+}
+
+.white-form{
+  background-color: white;
+  padding: 30px 20px;
 }
