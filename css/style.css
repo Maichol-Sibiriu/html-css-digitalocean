@@ -12,9 +12,9 @@ h4{
 .navbar .nav li .btn{
   padding: 5px 15px;
   background-color: #ffffff;
-  border-color: #63a1ff;
+  border-color: #006aff;
   margin-top: 10px;
-  color: #63a1ff;
+  color: #006aff;
 }
 .nav{
   margin-top: 5px;
@@ -40,4 +40,16 @@ h4{
   position: relative;
   top: 2px;
   padding: 0px 3px;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Mostra hamburger */
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    /* Nascondi contenitore menu */
+    .navbar-collapse {
+        display: none;
+    }
 }
