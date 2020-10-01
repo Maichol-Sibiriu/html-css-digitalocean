@@ -1,0 +1,43 @@
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+h1,
+h2,
+h3,
+h4{
+  font-family: 'Montserrat', sans-serif;
+}
+/* button */
+.navbar .nav li .btn{
+  padding: 5px 15px;
+  background-color: #ffffff;
+  border-color: #63a1ff;
+  margin-top: 10px;
+  color: #63a1ff;
+}
+.nav{
+  margin-top: 5px;
+}
+.navbar{
+  background-color: #ffffff;
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0px;
+}
+.navbar-header .navbar-brand{
+  width: 170px;
+  height: 30px;
+}
+.left{
+  padding-left: 80px;
+}
+.navbar .nav li a{
+  color: #283c66;
+  font-weight: 600;
+}
+.fa-angle-down{
+  position: relative;
+  top: 2px;
+  padding: 0px 3px;
+}
