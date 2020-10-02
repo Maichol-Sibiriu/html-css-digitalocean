@@ -21,6 +21,9 @@ p{
   font-size: 12px;
 }
 
+.relative{
+  position: relative;
+}
 /* layout */
 
 /* background section */
@@ -46,6 +49,23 @@ section{
   color: #006aff;
 }
 
+.btn{
+  border-radius: 7px;
+  width: 100%;
+  font-weight: 600;
+}
+
+.btn-blue{
+  background-color: #579aff;
+  color: white;
+}
+
+.btn-white{
+  position: relative;
+  color: #949494;
+  box-shadow: 2px 2px #999;
+  border: none;
+}
 /* navbar */
 .nav{
   margin-top: 5px;
@@ -91,6 +111,7 @@ section{
     }
 }
 
+
 /* header top */
 /* jumbotron */
 .jumbotron{
@@ -100,21 +121,70 @@ section{
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .jumbotron h1{
   color: white;
   font-size: 60px;
 }
+
 .jumbotron p{
   color: #bbc8f5;
   font-weight: 600;
   font-size: 22px;
 }
+
 .jumbotron-left{
   padding-top: 20px;
   padding-right: 20px;
 }
+
 .white-form{
   background-color: white;
   padding: 30px 20px;
   border-radius: 7px;
+}
+
+.form h2{
+  font-size: 27px;
+  text-align: center;
+}
+
+.form-control{
+  padding: 20px 4px;
+  font-size: 17px;
+}
+
+.lightblue{
+  color: #006aff;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.google button img{
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 2%;
+  top: 50%;
+  transform: translatey(-50%);
+}
+
+form .subtext{
+  font-size: 14px;
+  text-align: center;
+}
+
+.subtext span{
+  color: #31456d;
+}
+
+.subtext a{
+  text-decoration: underline;
+}
+
+.color-input{
+  color: #949494;
+  font-weight: bold;
 }
