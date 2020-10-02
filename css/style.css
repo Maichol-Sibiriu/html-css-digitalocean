@@ -1,8 +1,12 @@
 /* general style */
 body{
   font-family: 'Lato', sans-serif;
+  font-size: 16px;
 }
 
+.text-center{
+  text-align: center;
+}
 /* typography */
 h1,
 h2,
@@ -30,6 +34,7 @@ p{
 section{
   padding-top: 80px;
   padding-bottom: 80px;
+  margin-bottom: 0px;
 }
 .grey{
   background-color: #f3f5f9;
@@ -63,9 +68,10 @@ section{
 .btn-white{
   position: relative;
   color: #949494;
-  box-shadow: 2px 2px #999;
+  box-shadow: 2px 2px #f2f0f0;
   border: none;
 }
+
 /* navbar */
 .nav{
   margin-top: 5px;
@@ -98,6 +104,7 @@ section{
   padding: 0px 3px;
 }
 
+/* media query navbar */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     /* Mostra hamburger */
     .navbar-toggle {
@@ -115,13 +122,14 @@ section{
 /* header top */
 /* jumbotron */
 .jumbotron{
-  height: 500px;
   background-image: url("../img/bg-banner-home.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 0px;
 }
 
+/* jumbotron left */
 .jumbotron h1{
   color: white;
   font-size: 60px;
@@ -138,6 +146,7 @@ section{
   padding-right: 20px;
 }
 
+/* jumbotron right form */
 .white-form{
   background-color: white;
   padding: 30px 20px;
@@ -146,7 +155,6 @@ section{
 
 .form h2{
   font-size: 27px;
-  text-align: center;
 }
 
 .form-control{
@@ -173,7 +181,6 @@ section{
 
 form .subtext{
   font-size: 14px;
-  text-align: center;
 }
 
 .subtext span{
@@ -182,9 +189,50 @@ form .subtext{
 
 .subtext a{
   text-decoration: underline;
+  color: #006aff;
 }
 
 .color-input{
   color: #949494;
   font-weight: bold;
+}
+
+/* media query header top */
+@media screen and (max-width: 991px) {
+
+  .jumbotron h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+}
+
+/* header bottom */
+.icon-header{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.icon-header p{
+  text-transform: uppercase;
+}
+
+.icon-header ul li{
+  display: inline-block;
+  width: calc((100% / 6) - 5px);
+}
+
+.icon-header ul li img{
+  width: 170px;
+}
+
+.icon-header a{
+  font-weight: 600;
+  color: #006aff;
+}
+
+.fa-angle-right{
+  position: relative;
+  top: 2px;
+  padding-left: 20px;
 }
