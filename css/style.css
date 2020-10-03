@@ -2,11 +2,17 @@
 body{
   font-family: 'Lato', sans-serif;
   font-size: 16px;
+  font-weight: 600;
 }
 
 .text-center{
   text-align: center;
 }
+
+.relative{
+  position: relative;
+}
+
 /* typography */
 h1,
 h2,
@@ -25,9 +31,10 @@ p{
   font-size: 12px;
 }
 
-.relative{
-  position: relative;
+.hcolor{
+  color: #283c66;
 }
+
 /* layout */
 
 /* background section */
@@ -162,7 +169,7 @@ section{
   font-size: 17px;
 }
 
-.lightblue{
+.form .lightblue{
   color: #006aff;
 }
 
@@ -213,19 +220,23 @@ form .subtext{
   padding-bottom: 30px;
 }
 
+/* introduzione icone */
 .icon-header p{
   text-transform: uppercase;
 }
 
+/* lista icone */
 .icon-header ul li{
   display: inline-block;
-  width: calc((100% / 6) - 5px);
+  width: calc((100% / 6) - 20px);
+  margin: 0px 8px;
 }
 
 .icon-header ul li img{
-  width: 170px;
+  max-width: 100%;
 }
 
+/* input customers */
 .icon-header a{
   font-weight: 600;
   color: #006aff;
@@ -235,4 +246,44 @@ form .subtext{
   position: relative;
   top: 2px;
   padding-left: 20px;
+}
+
+/* media query header bottom */
+@media screen and (max-width: 768px){
+
+  .icon-header ul li{
+    display: inline-block;
+    width: calc((100% / 2) - 115px);
+    margin: 0px 35px;
+  }
+
+}
+
+/* main */
+/* sezione DEPLOY */
+.p-deploy{
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.bottom-deploy{
+  margin-top: 40px;
+}
+.list-group{
+  text-align: left;
+  margin-left: 25%;
+  font-size: 17px;
+}
+
+.list-group li{
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  color: #5c6a88;
+  border-left: 1px solid #999999;
+}
+
+.list-group-item:first-child,
+.list-group-item:last-child{
+  border-radius: 0px;
 }
