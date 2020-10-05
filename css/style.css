@@ -239,7 +239,8 @@ form .subtext{
   color: #006aff;
 }
 
-.fa-angle-right{
+.icon-header a i{
+  color: #006aff;
   position: relative;
   top: 2px;
   padding-left: 20px;
@@ -311,9 +312,56 @@ form .subtext{
 }
 
 /* SEZIONE DESIGNED FOR DEVELOPERS */
+.img-center img{
+  width: 50%;
+  margin-top: 50px;
+}
 
+.img-center{
+  position: relative;
+}
 
+.designed p{
+  margin-top: 30px;
+}
 
+.sub-text p{
+  margin-top: 15px;
+}
 
+.fa-circle{
+  color: #006aff;
+}
+
+.sub-text p,
+.img-center .fa-angle-right{
+  color: #031b4e;
+}
+
+.img-center .fa-angle-left{
+  color: #5c6a88;
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translateY(-50%);
+}
+
+.img-center .fa-angle-right{
+  position: absolute;
+  top: 60%;
+  right: 20%;
+  transform: translateY(-50%);
+}
 
 /* media query DESIGNED FOR DEVELOPERS */
+@media screen and (max-width: 768px){
+
+  .img-center i{
+    display: none;
+  }
+
+  .img-center img{
+    margin-top: 50px;
+  }
+
+}
