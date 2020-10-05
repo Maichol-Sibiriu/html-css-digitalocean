@@ -323,6 +323,13 @@ form .subtext{
 }
 
 /* SEZIONE DESIGNED FOR DEVELOPERS */
+
+/* introduzione DESIGNED FOR DEVELOPERS */
+.designed p{
+  margin-top: 30px;
+}
+
+/* immagine centrale DESIGNED FOR DEVELOPERS */
 .img-center img{
   width: 50%;
   margin-top: 50px;
@@ -330,23 +337,6 @@ form .subtext{
 
 .img-center{
   position: relative;
-}
-
-.designed p{
-  margin-top: 30px;
-}
-
-.sub-text p{
-  margin-top: 15px;
-}
-
-.fa-circle{
-  color: #006aff;
-}
-
-.sub-text p,
-.img-center .fa-angle-right{
-  color: #031b4e;
 }
 
 .img-center .fa-angle-left{
@@ -364,7 +354,22 @@ form .subtext{
   transform: translateY(-50%);
 }
 
+/* subtext DESIGNED FOR DEVELOPERS */
+.sub-text p{
+  margin-top: 15px;
+}
+
+.fa-circle{
+  color: #006aff;
+}
+
+.sub-text p,
+.img-center .fa-angle-right{
+  color: #031b4e;
+}
+
 /* media query DESIGNED FOR DEVELOPERS */
+/* media query xs */
 @media screen and (max-width: 768px){
 
   .img-center i{
@@ -381,6 +386,7 @@ form .subtext{
 
 }
 
+/* media query sm */
 @media screen and (min-width: 768px) and (max-width: 991px){
 
   .img-center img{
@@ -406,4 +412,17 @@ form .subtext{
     transform: translateY(-50%);
   }
 
+}
+
+/* SEZIONE BUSINESS */
+
+.box-business a i{
+   position: relative;
+   top: 2px;
+   padding-left: 10px;
+}
+
+.box-business img{
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
