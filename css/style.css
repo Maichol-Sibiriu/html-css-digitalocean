@@ -40,9 +40,11 @@ section{
   padding-bottom: 80px;
   margin-bottom: 0px;
 }
+
 .grey{
   background-color: #f3f5f9;
 }
+
 .blue{
   background-color: #0041be;
 }
@@ -425,4 +427,53 @@ form .subtext{
 .box-business img{
   margin-top: 40px;
   margin-bottom: 20px;
+}
+
+/* SEZIONE SERVICE */
+.list-group-item span,
+.title-service h2{
+  color: white;
+}
+
+.list-group-item span{
+  text-transform: uppercase;
+}
+
+.list-group-item .text-list{
+  padding-left: 30px;
+  color: red;
+}
+
+.list-left .list-group li,
+.list-right .list-group li{
+  border-bottom: 2px solid gray;
+  border-left: none;
+}
+
+.list-left .list-group li:last-child,
+.list-right .list-group li:last-child{
+  border-bottom: none;
+}
+
+.list-left .list-group,
+.list-right .list-group{
+  margin-left: 0%;
+}
+
+.list-left .list-group .list-group-item,
+.list-right .list-group .list-group-item{
+  position: relative;
+}
+
+.list-left .list-group .list-group-item a,
+.list-right .list-group .list-group-item a{
+  position: absolute;
+  right: 0%;
+  transform: translateX(-25%);
+}
+
+.list-group-item a .fa-angle-right{
+  position: relative;
+  top: 2px;
+  padding-left: 10px;
 }
