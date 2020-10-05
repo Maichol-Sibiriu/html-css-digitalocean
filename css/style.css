@@ -267,6 +267,7 @@ form .subtext{
   margin-top: 40px;
 }
 
+/* box deploy */
 .box{
   margin-top: 40px;
   margin-right: 40px;
@@ -276,6 +277,7 @@ form .subtext{
   margin-bottom: 10px;
 }
 
+/* lista deploy */
 .list-group{
   text-align: left;
   margin-left: 25%;
@@ -295,6 +297,7 @@ form .subtext{
   border-radius: 0px;
 }
 
+/* media query sezione deploy */
 @media screen and (max-width: 768px){
 
   .list-group{
@@ -306,3 +309,11 @@ form .subtext{
   }
 
 }
+
+/* SEZIONE DESIGNED FOR DEVELOPERS */
+
+
+
+
+
+/* media query DESIGNED FOR DEVELOPERS */
