@@ -430,23 +430,31 @@ form .subtext{
 }
 
 /* SEZIONE SERVICE */
-.list-group-item span,
 .title-service h2{
   color: white;
 }
 
-.list-group-item span{
+.up{
   text-transform: uppercase;
+  color: white;
 }
 
-.list-group-item .text-list{
-  padding-left: 30px;
-  color: red;
+.lpadding{
+  padding-left: 0px;
+  color: #7a97d7;
+}
+
+.font-li{
+  font-size: 14px;
+}
+
+.color-a{
+  color: #00c7cf;
 }
 
 .list-left .list-group li,
 .list-right .list-group li{
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid #7a97d7;
   border-left: none;
 }
 
@@ -458,18 +466,6 @@ form .subtext{
 .list-left .list-group,
 .list-right .list-group{
   margin-left: 0%;
-}
-
-.list-left .list-group .list-group-item,
-.list-right .list-group .list-group-item{
-  position: relative;
-}
-
-.list-left .list-group .list-group-item a,
-.list-right .list-group .list-group-item a{
-  position: absolute;
-  right: 0%;
-  transform: translateX(-25%);
 }
 
 .list-group-item a .fa-angle-right{
