@@ -17,7 +17,8 @@ body{
 h1,
 h2,
 h3,
-h4{
+h4,
+h5{
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   margin-top: 0px;
@@ -76,6 +77,12 @@ section{
   color: #949494;
   box-shadow: 2px 2px #f2f0f0;
   border: none;
+}
+
+.btn-started{
+  color: #006aff;
+  padding: 10px 15px;
+  border-radius: 5px;
 }
 
 /* navbar */
@@ -473,3 +480,78 @@ form .subtext{
   top: 2px;
   padding-left: 10px;
 }
+
+/* SEZIONE DEVELOPMENT TEAMS */
+.rockerbox{
+  width: 50%;
+  padding: 60px 0px;
+  background-color: white;
+  margin: auto;
+  border-radius: 7px;
+}
+
+.center-development{
+  position: relative;
+  margin-top: 90px;
+}
+
+.center-development .fa-angle-left{
+  position: absolute;
+  left: 20%;
+  top: 51%;
+  transform: translateY(-50%);
+  color: #5c6a88;
+}
+
+.center-development .fa-angle-right{
+  position: absolute;
+  right: 20%;
+  top: 51%;
+  transform: translateY(-50%);
+  color: #031b4e;
+}
+
+.rockerbox img{
+  margin-bottom: 30px;
+}
+
+.p-font{
+  font-size: 22px;
+}
+
+.rockerbox h5{
+  margin-bottom: 0px;
+}
+
+.p-color{
+  color: #031b4e;
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+
+.rockerbox a i{
+  position: relative;
+  top: 2px;
+  padding-left: 10px;
+}
+
+.sub-circle{
+  margin-top: 30px;
+}
+
+/* media query DEVELOPMENT TEAMS */
+@media screen and (max-width: 768px){
+
+  .center-development i{
+    display: none;
+  }
+
+}
+
+/* sezione get started now */
+.started h2{
+  color: white;
+  margin-bottom: 40px;
+}
+
+/* FOOTER */
